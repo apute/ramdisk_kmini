@@ -12,5 +12,5 @@
 
 # VOLD
 /dev/block/platform/msm_sdcc.1/by-name/hidden		/preload		ext4		default		voldmanaged=preload:auto
-/devices/msm_sdcc.2/mmc_host/mmc1*		auto		vfat		defaults		voldmanaged=sdcard:auto
+/devices/msm_sdcc.2/mmc_host/mmc1/			auto 					vfat	default		voldmanaged=extSdCard:auto,noemulatedsd
 /devices/platform/msm_hsusb_host/usb*		auto		auto		defaults		voldmanaged=usb:auto
