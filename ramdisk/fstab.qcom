@@ -13,9 +13,9 @@
 # VOLD
 /devices/msm_sdcc.2/mmc_host/mmc1/			auto 					vfat	default		voldmanaged=extSdCard:auto,noemulatedsd
 /devices/platform/msm_hsusb_host/usb1*sda,/devices/platform/msm_hsusb_host/usb2*sda            auto                    vfat    default     voldmanaged=UsbDriveA:auto
-/devices/platform/msm_hsusb_host/usb1*sdb,/devices/platform/msm_hsusb_host/usb2*sdb             auto                    vfat    default     voldmanaged=UsbDriveB:auto
+/devices/platform/msm_hsusb_host/usb1*sdb,/devices/platform/msm_hsusb_host/usb2*sdb            auto                    vfat    default     voldmanaged=UsbDriveB:auto
 /devices/platform/msm_hsusb_host/usb1*sdc,/devices/platform/msm_hsusb_host/usb2*sdc            auto                    vfat    default     voldmanaged=UsbDriveC:auto
 /devices/platform/msm_hsusb_host/usb1*sdd,/devices/platform/msm_hsusb_host/usb2*sdd            auto                    vfat    default     voldmanaged=UsbDriveD:auto
 /devices/platform/msm_hsusb_host/usb1*sde,/devices/platform/msm_hsusb_host/usb2*sde            auto                    vfat    default     voldmanaged=UsbDriveE:auto
-/devices/platform/msm_hsusb_host/usb1*sdf,/devices/platform/msm_hsusb_host/usb2*sdf          auto                    vfat    default     voldmanaged=UsbDriveF:auto
-/devices/platform/msm_hsusb_host/usb*		auto		auto		defaults		voldmanaged=usb:auto
+/devices/platform/msm_hsusb_host/usb1*sdf,/devices/platform/msm_hsusb_host/usb2*sdf            auto                    vfat    default     voldmanaged=UsbDriveF:auto
+/devices/platform/msm_hsusb_host/usb*		                                                   auto		               auto		defaults		 voldmanaged=usb:auto
