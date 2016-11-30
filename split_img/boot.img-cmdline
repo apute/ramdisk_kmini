@@ -1,1 +1,1 @@
-console=null androidboot.console=null androidboot.hardware=qcom user_debug=23
+console=null androidboot.console=null androidboot.hardware=qcom user_debug=23 androidboot.selinux=disabled
