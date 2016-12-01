@@ -24,3 +24,9 @@ dalvik.vm.dex2oat-Xmx=512m
 dalvik.vm.image-dex2oat-Xms=64m
 dalvik.vm.image-dex2oat-Xmx=64m
 ro.dalvik.vm.native.bridge=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Sep 22 19:05:29 KST 2016
+ro.bootimage.build.date.utc=1474538729
+ro.bootimage.build.fingerprint=samsung/kmini3gxx/kmini3g:6.0.1/MMB29M/G800HXXU1CPI5:user/test-keys
