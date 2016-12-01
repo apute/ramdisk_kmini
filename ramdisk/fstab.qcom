@@ -18,4 +18,3 @@
 /devices/platform/msm_hsusb_host/usb1*sdd,/devices/platform/msm_hsusb_host/usb2*sdd            auto                    vfat    default     voldmanaged=UsbDriveD:auto
 /devices/platform/msm_hsusb_host/usb1*sde,/devices/platform/msm_hsusb_host/usb2*sde            auto                    vfat    default     voldmanaged=UsbDriveE:auto
 /devices/platform/msm_hsusb_host/usb1*sdf,/devices/platform/msm_hsusb_host/usb2*sdf            auto                    vfat    default     voldmanaged=UsbDriveF:auto
-/devices/platform/msm_hsusb_host/usb*		                                                   auto		               auto		defaults		 voldmanaged=usb:auto
