@@ -48,11 +48,12 @@ on init
     
     # Set permissions for persist partition
     mkdir /persist 0771 system system
-
+    mkdir /mnt/media_rw/extSdCard 0700 media_rw media_rw
+    mkdir /storage/extSdCard 0700 root root
+    
     export EXTERNAL_STORAGE /sdcard
     export SECONDARY_STORAGE /storage/extSdCard
-    mkdir /storage/extSdCard 0555 root root
-
+    
     # Support legacy paths
     symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
